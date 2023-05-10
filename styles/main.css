@@ -242,6 +242,7 @@ a {
   visibility: visible;
 }
 .main .container {
+  overflow-x: hidden;
   padding: 7rem 0;
   width: 80%;
   max-width: 200rem;
@@ -833,19 +834,25 @@ footer .copy {
   }
   .footer .footer-wrap {
     gap: 0;
+    align-items: center;
   }
   .footer .footer-wrap .footer__home,
   .footer .footer-wrap .footer__about,
   .footer .footer-wrap .footer__socials {
     width: 100%;
-    min-width: 30rem;
+    min-width: 25rem;
     text-align: center;
+    margin: 2rem 0;
+    gap: 0;
   }
   .footer .footer-wrap .footer__home p:nth-child(2) {
     max-width: none;
   }
   .footer .footer-wrap .footer__about {
     padding-left: 0;
+  }
+  .footer .footer-wrap .footer__about a {
+    margin-bottom: 0;
   }
   .footer .footer-wrap .footer__socials .socials {
     width: 70%;

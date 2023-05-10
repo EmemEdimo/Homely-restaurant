@@ -290,6 +290,7 @@ a {
     }
 
     .container {
+        overflow-x: hidden;
         padding: 7rem 0;
         width: 80%;
         max-width: 200rem;
@@ -887,12 +888,15 @@ footer {
 
         .footer-wrap {
             gap: 0;
+            align-items: center;
             .footer__home,
             .footer__about,
             .footer__socials {
                 width: 100%;
-                min-width: 30rem;
+                min-width: 25rem;
                 text-align: center;
+                margin: 2rem 0;
+                gap: 0;
             }
 
             .footer__home {
@@ -903,6 +907,10 @@ footer {
 
             .footer__about {
                 padding-left: 0;
+
+                a {
+                    margin-bottom: 0;
+                }
             }
 
             .footer__socials {
