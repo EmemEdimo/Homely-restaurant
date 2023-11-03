@@ -16,7 +16,7 @@ body {
 }
 
 .active {
-  color: #FF4D00;
+  color: #ff4d00;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 .btn {
   border: none;
   border-radius: 10px;
-  background-color: #FF4D00;
+  background-color: #ff4d00;
   padding: 0.7em 1.5em;
   font-size: 2rem;
   line-height: 2.3rem;
@@ -42,7 +42,7 @@ a {
   font-size: 3.9rem;
   line-height: 5rem;
   font-weight: 700;
-  color: #FF4D00;
+  color: #ff4d00;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -61,7 +61,7 @@ a {
   line-height: 3.8rem;
   font-weight: 400;
   font-family: "Oleo Script", cursive;
-  background: linear-gradient(96.22deg, #FF4D00 11.8%, #2549D3 56.64%, #FF5106 65.6%, #FC5005 85.1%);
+  background: linear-gradient(96.22deg, #ff4d00 11.8%, #2549d3 56.64%, #ff5106 65.6%, #fc5005 85.1%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -72,7 +72,7 @@ a {
 }
 .main .navbar {
   width: 100%;
-  background-color: #FFE9E0;
+  background-color: #ffe9e0;
   padding: 2% 0;
 }
 .main .navbar .nav-wrap {
@@ -103,10 +103,10 @@ a {
   color: inherit;
 }
 .main .navbar .nav-wrap .nav__content ul li a:hover {
-  color: #FF4D00;
+  color: #ff4d00;
 }
 .main .navbar .nav-wrap .nav__content ul li a:active {
-  color: #FF4D00;
+  color: #ff4d00;
 }
 .main .navbar .nav-wrap .nav__btn {
   display: flex;
@@ -172,7 +172,7 @@ a {
   position: relative;
   width: 90%;
   height: 3px;
-  background-color: #FF4D00;
+  background-color: #ff4d00;
   transition: all 0.4s ease-in;
 }
 .main .navbar .nav-wrap .mobile__nav .hamburger .control::before, .main .navbar .nav-wrap .mobile__nav .hamburger .control::after {
@@ -180,7 +180,7 @@ a {
   position: absolute;
   width: 100%;
   height: 3px;
-  background-color: #FF4D00;
+  background-color: #ff4d00;
   top: -10px;
 }
 .main .navbar .nav-wrap .mobile__nav .hamburger .control::after {
@@ -215,7 +215,7 @@ a {
 .main .navbar .nav-wrap .mobile__nav .menu .mo-nav {
   width: 100%;
   height: 100%;
-  background-color: #FF4D00;
+  background-color: #ff4d00;
   -webkit-backdrop-filter: blur(40.77px);
           backdrop-filter: blur(40.77px);
 }
@@ -270,7 +270,7 @@ a {
   font-weight: 500;
 }
 .main .container .hero__text h1 span {
-  color: #FF4D00;
+  color: #ff4d00;
 }
 .main .container .hero__text p {
   font-size: 2.4rem;
@@ -314,7 +314,7 @@ a {
 }
 .main .container #products .services .section-card-wrap {
   width: 100%;
-  background-color: #FFE9E0;
+  background-color: #ffe9e0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -381,11 +381,10 @@ a {
   gap: 15rem;
 }
 .main .container #products .dishes .dish-card-wrap .dish-card {
-  width: 20%;
-  min-width: 23rem;
-  border: 1px solid #FF4D00;
+  flex-basis: 23rem;
+  flex-grow: 1;
+  border: 1px solid #ff4d00;
   border-radius: 3px;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -606,7 +605,7 @@ a {
 }
 .main .container .newsletter .btn-wrap input:focus {
   outline: none;
-  border-bottom: 3px solid #FF4D00;
+  border-bottom: 3px solid #ff4d00;
 }
 .main .container .newsletter .btn-wrap .subscribe-btn {
   flex-direction: 1;
@@ -615,7 +614,7 @@ a {
   padding: 2rem 0.5rem;
   margin-top: 2rem;
   color: #fff;
-  background-color: #FF4D00;
+  background-color: #ff4d00;
   border: none;
   cursor: pointer;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
@@ -715,7 +714,7 @@ footer .footer-wrap .footer__socials .socials a {
   padding: 1rem;
 }
 footer .footer-wrap .footer__socials .socials a:hover {
-  border: 1px solid #FFE9E0;
+  border: 1px solid #ffe9e0;
 }
 footer .footer-wrap .footer__socials .socials .insta {
   width: 3rem;
