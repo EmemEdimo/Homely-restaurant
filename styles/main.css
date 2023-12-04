@@ -819,6 +819,11 @@ footer .copy {
   .main .container #about {
     padding: 5rem 0;
   }
+  .main .container #about .about-text p {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
+  }
   .main .container #about .about-img {
     display: none;
   }
@@ -826,6 +831,9 @@ footer .copy {
     text-align: center;
   }
   .main .container .app__section .app__section-content .app__section-text p {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
     padding: 0 0 2rem 0;
   }
   .main .container .app__section .app__section-content .app__section-img {

@@ -835,6 +835,11 @@ footer {
 
       #about {
         padding: 5rem 0;
+        .about-text {
+          p {
+            @include font-style(2rem, 3rem, 400);
+          }
+        }
         .about-img {
           display: none;
         }
@@ -846,6 +851,7 @@ footer {
             text-align: center;
 
             p {
+              @include font-style(2rem, 3rem, 400);
               padding: 0 0 2rem 0;
             }
           }
